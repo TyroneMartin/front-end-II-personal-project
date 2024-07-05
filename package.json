@@ -1,0 +1,21 @@
+{
+  "name": "front-end-ii-personal-project",
+  "version": "1.0.0",
+  "main": "app.js",
+  "description": "This project is a personal project for Front End II. It is an API built using Firebase and Node.js. The API compares third-party rates and provides customers with the best room rates within the USA for a specific area.",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase": "^10.12.3",
+    "firebase-admin": "^12.2.0"
+  },
+  "author": "Tyrone Martin",
+  "license": "ISC",
+  "keywords": []
+}

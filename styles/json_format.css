@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+#hotels-data {
+    white-space: pre-wrap; /* Keeps the formatting for JSON data */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+}
+h1 {
+    color: #333;
+}
