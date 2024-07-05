@@ -11,16 +11,6 @@
     <h1>Hotels Data</h1>
     <div id="hotels-data"></div>
 
-    <script>
-        fetch('/api/hotels')
-            .then(response => response.json())
-            .then(data => {
-                const hotelsDiv = document.getElementById('hotels-data');
-                hotelsDiv.innerHTML = JSON.stringify(data, null, 2);
-            })
-            .catch(error => console.error('Error:', error));
-    </script>
-
     <style>
         body {
             font-family: Arial, sans-serif;
