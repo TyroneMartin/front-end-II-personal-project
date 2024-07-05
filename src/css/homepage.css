@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+.mainContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+section {
+    max-width: 50%;
+    margin: 0;
+}
+h1, h2, h3 {
+    color: #333;
+    margin: 0 0 10px 0;
+}
+p {
+    color: #666;
+    margin: 0 0 10px 0;
+}
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+picture {
+    max-width: 400px;
+}
+picture img {
+    max-width: 100%;
+    height: auto;
+}
+.slider-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider div {
+    min-width: 250px;
+    margin-right: 20px;
+}
+
+/* Hotel Card Styling */
+.hotel-card, .vendor-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    transition: transform 0.2s;
+}
+
+.hotel-card:hover, .vendor-card:hover {
+    transform: scale(1.05);
+}

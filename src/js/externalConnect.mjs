@@ -23,8 +23,20 @@ const getHotelsData = async (database) => {
     const snapshot = await hotelsRef.once('value');
     return snapshot.exists() ? snapshot.val() : { message: "No data available" };
   } catch (error) {
+    console.error('Error getHotelsData() data:', error);
     throw error;
   }
 };
 
-export { initializeFirebase, getHotelsData };
+const getVendorsData = async (database) => {
+  try {
+    const vendorsRef = database.ref('vendor');
+    const snapshot = await vendorsRef.once('value');
+    return snapshot.exists() ? snapshot.val() : { message: "No data available" };
+  } catch (error) {
+    console.error('Error getVendorsData() data:', error);
+    throw error;
+  }
+};
+
+export { initializeFirebase, getHotelsData, getVendorsData };
