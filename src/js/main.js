@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('http://localhost:3000/api/hotels')
         .then(response => {
             if (!response.ok) {
-                throw new Error('Network response was not ok');
+                throw new Error(`Network response was not ok: ${response.statusText}`);
             }
             return response.json();
         })
@@ -20,19 +20,11 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             // Display top 12 hotels with best rates
-            if (Array.isArray(data.hotels)) {
-                hotelsDiv.innerHTML = createHotelCards(data.hotels);
-            } else {
-                hotelsDiv.innerHTML = '<p>No hotel data available</p>';
-            }
+            hotelsDiv.innerHTML = createHotelCards(data);
             hotelsDiv.classList.remove('loading');
 
             // Display top 10 partners
-            if (data.vendors && typeof data.vendors === 'object') {
-                partnersDiv.innerHTML = createPartnerCards(data.vendors);
-            } else {
-                partnersDiv.innerHTML = '<p>No partner data available</p>';
-            }
+            partnersDiv.innerHTML = createPartnerCards(data.vendors);
             partnersDiv.classList.remove('loading');
 
             // Initialize sliders
