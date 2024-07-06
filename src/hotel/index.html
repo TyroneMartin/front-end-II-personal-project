@@ -5,9 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel360 | Home Page</title>
     <link rel="stylesheet" href="../css/homepage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-<header class="divider" id="main-header">Welcome to Hotel360</header>
+<!-- <header class="divider" id="main-header">Welcome to Hotel360</header> -->
+<header class="divider" id="main-header">
+    <div class="container">
+        <span>Welcome to Hotel360</span>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#bookings">Bookings</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
 <main>
     <div class="mainContainer">
         <section>
@@ -18,8 +32,10 @@
             <button>Book Now</button>
         </section>
         <picture>
-            <source srcset="https://placehold.jp/400x400.png" type="image/webp" media="(min-width: 501px)">
-            <img src="https://placehold.jp/400x400.png" alt="hotel">
+            <!-- <source srcset="https://placehold.jp/400x400.png" type="image/webp" media="(min-width: 501px)"> -->
+            <!-- <img src="https://placehold.jp/400x400.png" alt="hotel"> -->
+            <!-- <source srcset="path_to/hero-image.webp" type="image/webp" media="(min-width: 501px)"> -->
+            <img src="../images/hero-image.webp" alt="Hotel balcony with a gust with a drink standing while viewing the hotel ">
         </picture>
     </div>
 
@@ -28,19 +44,16 @@
         <div class="slider" id="hotels-data"></div>
     </div>
 
-<div class="mainContainer">
-    <picture>
-        <source srcset="https://placehold.jp/400x400.png" type="image/webp" media="(min-width: 501px)">
-        <img src="https://placehold.jp/400x400.png" alt="hotel">
-    </picture>
-
-    <section>
-        <h3>Mission</h3>
-        <p>To provide the best hotel experience for our customers at the most competitive prices.</p>
-    </section>
-</div>
-
-  
+    <div class="mainContainer">
+        <picture>
+            <!-- <source srcset="path_to/mission-picture.webp" type="image/webp" media="(min-width: 501px)"> -->
+            <img src="../images/mission-picture.webp" alt="Tennis Action">
+        </picture>
+        <section>
+            <h3>Mission</h3>
+            <p>To provide the best hotel experience for our customers at the most competitive prices.</p>
+        </section>
+    </div>
 </main>
 <footer id="main-footer">© 2024 Hotel360. All rights reserved.</footer>
 <script src="../js/main.js" type="module"></script>
