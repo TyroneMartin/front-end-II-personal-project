@@ -1,9 +1,8 @@
-import { handleErrors, createHotelCards, createPartnerCards } from './util.mjs';
+import { handleErrors, createHotelCards } from './util.mjs';
 import { startSlider } from './slider.mjs';
 
 document.addEventListener('DOMContentLoaded', function() {
     const hotelsDiv = document.getElementById('hotels-data');
-    const partnersDiv = document.getElementById('partners');
 
     fetch('http://localhost:3000/api/hotels')
         .then(response => {
@@ -23,23 +22,15 @@ document.addEventListener('DOMContentLoaded', function() {
             hotelsDiv.innerHTML = createHotelCards(data);
             hotelsDiv.classList.remove('loading');
 
-            // Display top 10 partners
-            partnersDiv.innerHTML = createPartnerCards(data.vendors);
-            partnersDiv.classList.remove('loading');
-
             // Initialize sliders
             const hotelContainer = document.querySelector('#hotels-data').closest('.slider-container');
-            const partnerContainer = document.querySelector('#partners').closest('.slider-container');
 
             startSlider(hotelContainer);
-            startSlider(partnerContainer);
         })
         .catch(error => {
             console.error('Error:', error);
             const errorMessage = `<p class="error">Error loading data: ${error.message}</p>`;
             hotelsDiv.innerHTML = errorMessage;
-            partnersDiv.innerHTML = errorMessage;
             hotelsDiv.classList.remove('loading');
-            partnersDiv.classList.remove('loading');
         });
 });
