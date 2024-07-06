@@ -15,27 +15,45 @@
             <ul>
                 <li><a href="../hotel/index.html">Home</a></li>
                 <li><a href="../details/index.html">Partners</a></li>
-                <li><a  class="active" href="../bookings/index.html">Bookings</a></li>
+                <li><a class="active" href="../bookings/index.html">Bookings</a></li>
             </ul>
         </nav>
     </div>
 </header>
 
 <main>
-    <div class="mainContainer">
+    <div class="bookingContainer">
         <section>
             <h1>Find deals for any season</h1>
             <h3>From cozy bed & breakfasts to luxury hotels, we've got you covered.</h3>
+            <h4>See the list of hotels near your destination</h4>
+        </section>
+
+        <form id="searchForm">
+            <div class="search-box">
+                <input type="text" id="location" placeholder="Where are you going?" required>
+                <input type="date" id="checkInDate" placeholder="Check-in Date" required>
+                <input type="date" id="checkOutDate" placeholder="Check-out Date" required>
+                <input type="number" id="adults" placeholder="Adults" min="1" required>
+                <input type="number" id="children" placeholder="Children" min="0">
+                <input type="number" id="rooms" placeholder="Rooms" min="1" required>
+                <button type="submit">Search</button>
+            </div>
+        </form>
+
+        <section id="results">
+            <div id="hotelResults"></div>
         </section>
     </div>
 
-    <div class="detailsTextContainer">
-        <div class="detailsText">
+    
+
+    <div class="detailsTextContainerBooking">
+        <div class="detailsTextBooking">
             <p>We understand how important it is to have a good hotel experience and how frustrating it can be to find the best deals. We've found the deals so you don't have to!</p>
         </div>
-        <h2>Your Journey Starts Here</h2>
+        <h2>Get the best deals in one place</h2>
     </div>
-
 </main>
 
 <section class="slider-container">
@@ -46,6 +64,5 @@
 <footer id="main-footer">© 2024 Hotel360. All rights reserved.</footer>
 <script src="../js/details.js" type="module"></script>
 <script src="../js/bookings.js" type="module"></script>
-
 </body>
 </html>
