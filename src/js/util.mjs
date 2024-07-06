@@ -37,18 +37,18 @@ function createHotelCards(data) {
     }).join('');
 }
 
-function createPartnerCards(vendors) {
-    if (typeof vendors !== 'object' || vendors === null) {
-        console.error('Invalid vendors data:', vendors);
+function createVendorCards(vendors) {
+    if (!Array.isArray(vendors) || vendors.length === 0) {
+        console.error('Invalid or empty vendors data:', vendors);
         return '<p>No partner data available</p>';
     }
 
-    const vendorNames = Object.keys(vendors).slice(0, 10);
-    return vendorNames.map(name => `
+    // Map vendors to create cards
+    return vendors.map(vendor => `
         <section class="vendor-card">
-            <h3>${name}</h3>
+            <h3>${vendor.name}</h3>
         </section>
     `).join('');
 }
 
-export { handleErrors, createHotelCards, createPartnerCards };
+export { handleErrors, createHotelCards, createVendorCards };
