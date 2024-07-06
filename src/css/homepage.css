@@ -151,6 +151,44 @@ picture img {
     margin-right: 20px;
 }
 
+.detailsTextContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9f5ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.detailsText, .detailsHeading {
+    flex: 1;
+    padding: 20px;
+}
+
+.detailsText {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.detailsHeading {
+    padding-left: 20px;
+}
+
+.detailsHeading h2 {
+    color: #0056b3;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+
+
 /* Hotel Card Styling */
 .hotel-card, .vendor-card {
     border: 1px solid #FFFFFF;
