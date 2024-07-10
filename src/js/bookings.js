@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     searchForm.addEventListener('submit', function(event) {
         event.preventDefault();
-        
+
         const location = document.getElementById('location').value;
         const checkInDate = document.getElementById('checkInDate').value;
         const checkOutDate = document.getElementById('checkOutDate').value;
@@ -12,10 +12,18 @@ document.addEventListener('DOMContentLoaded', function() {
         const children = document.getElementById('children').value;
         const rooms = document.getElementById('rooms').value;
 
-        fetch(`http://localhost:3000/api/hotels?location=${location}&checkInDate=${checkInDate}&checkOutDate=${checkOutDate}&adults=${adults}&children=${children}&rooms=${rooms}`)
+        if (!location) {
+            hotelResultsDiv.innerHTML = '<p>Please enter a valid state.</p>';
+            return;
+        }
+
+        fetch(`http://localhost:3000/api/hotels?state=${location}&checkInDate=${checkInDate}&checkOutDate=${checkOutDate}&adults=${adults}&children=${children}&rooms=${rooms}`)
             .then(response => response.json())
             .then(data => {
-                console.log('Received data:', data);
+                if (!data.hotels || data.hotels.length === 0) {
+                    hotelResultsDiv.innerHTML = '<p>No hotels found in this state. Please try another location.</p>';
+                    return;
+                }
                 hotelResultsDiv.innerHTML = createHotelResults(data);
             })
             .catch(error => {
@@ -25,18 +33,13 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     function createHotelResults(data) {
-        if (!data.hotels || data.hotels.length === 0) {
-            return '<p>No results found.</p>';
-        }
-
         return data.hotels.map(hotelGroup => {
             return hotelGroup.hotels.map(hotel => {
-                const lowestPriceDetail = hotel.priceDetails.reduce((lowest, current) => {
-                    return current.price < lowest.price ? current : lowest;
-                }, hotel.priceDetails[0]);
+                const lowestPriceDetail = hotel.priceDetails.reduce((lowest, current) => lowest.price < current.price ? lowest : current, hotel.priceDetails[0]);
 
                 return `
                     <div class="hotel-result">
+                        <img class="hotel-image" src="${hotel.image}" alt="${hotel.hotelName}">
                         <h4>${hotel.hotelName}</h4>
                         <p>Location: ${hotelGroup.state}</p>
                         <p>Best Price: $${lowestPriceDetail.price}</p>
