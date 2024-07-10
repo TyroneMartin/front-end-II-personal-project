@@ -164,9 +164,15 @@ img {
 
 .slider {
     display: flex;
-    /* flex-wrap: wrap; */
-    /* height: 100%; */
+    width: 100%;
+    height: auto;
     transition: transform 0.5s ease-in-out;
+}
+
+.slider.wrap {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
