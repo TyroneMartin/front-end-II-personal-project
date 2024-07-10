@@ -6,7 +6,7 @@ const router = express.Router();
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Serve index.html
-//http://localhost:3000/
+//https://front-end-ii-personal-project.onrender.com/
 
 router.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../hotel/index.html'));

@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
-        fetch(`https://front-end-ii-personal-project.onrender.com?state=${location}&checkInDate=${checkInDate}&checkOutDate=${checkOutDate}&adults=${adults}&children=${children}&rooms=${rooms}`)
+        fetch(`https://front-end-ii-personal-project.onrender.com/api/hotels?state=${location}&checkInDate=${checkInDate}&checkOutDate=${checkOutDate}&adults=${adults}&children=${children}&rooms=${rooms}`)
             .then(response => response.json())
             .then(data => {
                 const filteredHotels = data.hotels.filter(hotelGroup => hotelGroup.state.toLowerCase() === location.toLowerCase());
