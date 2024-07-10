@@ -359,12 +359,22 @@ img {
 
 /* Get all hotel data */
 
-.allHotelsContainer {
+div#allHotels-data {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
+    width: 100%; 
+    height: auto;
 }
+
+div#allHotels-data img {
+    flex: 1 0 auto;  /* grow to fill, no shrink, auto basis */
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; /* Cover the area of the box without distortion */
+}
+
 
 .getAllhotel-card {
     border: 1px solid #ddd;
