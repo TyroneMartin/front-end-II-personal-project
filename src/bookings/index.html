@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel360 | Home Page</title>
-    <link rel="stylesheet" href="../css/homepage.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="divider" id="main-header">
     <div class="container">
-        <span>Welcome to Hotel360</span>
+        <span class="logo">Welcome to <span>Hotel360</span></span>
         <nav>
             <ul>
                 <li><a href="../hotel/index.html">Home</a></li>
@@ -34,7 +34,7 @@
             <div class="search-box">
                 <input type="text" id="location" placeholder="Where are you going?" required>
                 <input type="date" id="checkInDate" placeholder="Check-in Date" required>
-                <input type="date" id="checkOutDate" placeholder="Check-out Date" required>
+                <input type="date" id="checkOutDate" title="Check-out Date" required>
                 <input type="number" id="adults" placeholder="Adults" min="1" required>
                 <input type="number" id="children" placeholder="Children" min="0">
                 <input type="number" id="rooms" placeholder="Rooms" min="1" required>
@@ -43,7 +43,7 @@
         </form>
 
         <section id="results">
-            <div id="hotelResults"></div>
+            <div id="hotelResults">&nbsp;</div>
         </section>
     </div>
 

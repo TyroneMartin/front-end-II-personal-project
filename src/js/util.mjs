@@ -62,7 +62,7 @@ function createAllHotelCards(data) {
     const lowestPrice = Math.min(...(hotel.priceDetails?.map(pd => pd.price) || [0]));
     return `
       <section class="getAllhotel-card">
-            <img class="hotel-image" src="${hotel.image || 'placeholder-image-url.jpg'}" alt="${hotel.hotelName}">
+            <img class="hotel-image" src="${hotel.image || 'https://placehold.jp/150x150.png'}" alt="${hotel.hotelName}">
             <h3 class="hotel-name">${hotel.hotelName || 'Unknown Hotel'}</h3>
             <p class="hotel-location">Location: ${hotel.state || 'N/A'}</p>
             <p class="hotel-bestprice">Best Price: $${lowestPrice.toFixed(2)}</p>
