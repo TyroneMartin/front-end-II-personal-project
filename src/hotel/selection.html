@@ -6,47 +6,6 @@
     <title>Hotel360 | Hotel Selection</title>
     <link rel="stylesheet" href="../css/homepage.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Open Sans', sans-serif;
-        }
-        .allHotels-data {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 20px;
-        }
-        .hotel-card {
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 16px;
-            margin: 16px;
-            width: 300px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            text-align: center;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .hotel-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-        }
-        .hotel-image {
-            width: 100%;
-            height: auto;
-            border-radius: 8px 8px 0 0;
-            object-fit: cover;
-        }
-        .hotel-card h3 {
-            font-size: 1.2em;
-            margin: 10px 0;
-            color: #333;
-        }
-        .hotel-card p {
-            font-size: 1em;
-            margin: 5px 0;
-            color: #666;
-        }
-    </style>
 </head>
 <body>
 <header class="divider" id="main-header">
@@ -66,16 +25,15 @@
 <main>
     <section>
         <h1>View All Our Hotels</h1>
-        <h3>Choose from Any of Our Partnering Hotels to Book</h3>
+        <h3>Get the best prices from for our partning travel agencies</h3>
     </section>
 
     <div class="allHotels-data">
-        <h3>View All Our Locations Across States</h3>
         <div id="allHotels-data"></div>
     </div>
 </main>
 
 <footer id="main-footer">© 2024 Hotel360. All rights reserved.</footer>
-<script type="module" src="../js/hotels.mjs"></script>
+<script type="module" src="../js/getAllHotels.mjs"></script>
 </body>
 </html>

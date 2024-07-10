@@ -25,16 +25,50 @@ function createHotelCards(data) {
     });
 
     // Take top 12 hotels
-    return sortedHotels.slice(0, 12).map(hotel => {
-        const lowestPrice = Math.min(...(hotel.priceDetails?.map(pd => pd.price) || [0]));
-        return `
-            <section class="hotel-card">
-                <h3>${hotel.hotelName || 'Unknown Hotel'}</h3>
-                <p>Location: ${hotel.state || 'N/A'}</p>
-                <p>Best Price: $${lowestPrice || 0}</p>
-            </section>
-        `;
-    }).join('');
+   return sortedHotels.slice(0, 12).map(hotel => {
+    const lowestPrice = Math.min(...(hotel.priceDetails?.map(pd => pd.price) || [0]));
+    return `
+        <section class="hotel-card">
+            <h3>${hotel.hotelName || 'Unknown Hotel'}</h3>
+            <p>Location: ${hotel.state || 'N/A'}</p>
+            <p>Best Price: $${lowestPrice.toFixed(2)}</p>
+        </section>
+    `;
+}).join('');
+}
+
+function createAllHotelCards(data) {
+    if (!Array.isArray(data.hotels) || data.hotels.length === 0) {
+        console.error('Invalid or empty hotels data:', data.hotels);
+        return '<p>No hotel data available</p>';
+    }
+
+    // Flatten the hotels array and include state information
+    const allHotels = data.hotels.flatMap(group => 
+        group.hotels.map(hotel => ({
+            ...hotel,
+            state: group.state
+        }))
+    );
+
+    // Sort hotels by lowest price from priceDetails
+    const sortedHotels = allHotels.sort((a, b) => {
+        const aLowestPrice = Math.min(...(a.priceDetails?.map(pd => pd.price) || [Infinity]));
+        const bLowestPrice = Math.min(...(b.priceDetails?.map(pd => pd.price) || [Infinity]));
+        return aLowestPrice - bLowestPrice;
+    });
+
+   return sortedHotels.map(hotel => {
+    const lowestPrice = Math.min(...(hotel.priceDetails?.map(pd => pd.price) || [0]));
+    return `
+      <section class="getAllhotel-card">
+            <img class="hotel-image" src="${hotel.image || 'placeholder-image-url.jpg'}" alt="${hotel.hotelName}">
+            <h3 class="hotel-name">${hotel.hotelName || 'Unknown Hotel'}</h3>
+            <p class="hotel-location">Location: ${hotel.state || 'N/A'}</p>
+            <p class="hotel-bestprice">Best Price: $${lowestPrice.toFixed(2)}</p>
+        </section>
+    `;
+}).join('');
 }
 
 function createVendorCards(vendors) {
@@ -51,4 +85,4 @@ function createVendorCards(vendors) {
     `).join('');
 }
 
-export { handleErrors, createHotelCards, createVendorCards };
+export { handleErrors, createHotelCards, createVendorCards, createAllHotelCards };

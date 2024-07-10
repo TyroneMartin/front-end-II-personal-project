@@ -196,7 +196,7 @@ img {
 .hotel-card, .vendor-card {
     border: 1px solid #FFFFFF;
     border-radius: 8px;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     text-align: center;
     background-color: white;
@@ -328,3 +328,63 @@ img {
     margin-bottom: 20px;
 }
 
+
+/* Get all hotel data */
+
+.allHotels-data {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.getAllhotel-card{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    flex: 1 1 calc(33.333% - 32px); /* 3 cards per row with margins */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    max-width: 300px; /* Optional: restrict the maximum width of each card */
+    background-color: white;
+}
+
+.hotel-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.hotel-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
+}
+
+.getAllhotel-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.getAllhotel-card p {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .allHotels-data {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .getAllhotel-card{
+        flex: 1 1 90%; /* Almost full width for smaller screens */
+        max-width: 100%;
+    }
+}
