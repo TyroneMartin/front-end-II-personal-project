@@ -1,0 +1,1021 @@
+[
+    {
+      "hotels": [
+        {
+          "currency": "USD",
+          "discountedDates": [
+            "2024-07-05",
+            "2024-07-12",
+            "2024-07-19",
+            "2024-07-26"
+          ],
+          "hotelId": "503409",
+          "hotelName": "The Westin Birmingham",
+          "language": "English",
+          "image": "https://cache.marriott.com/content/dam/marriott-renditions/BHMWI/bhmwi-exterior-1940-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1300px:*",
+          "priceDetails": [
+            {
+              "price": 180,
+              "tax": 27,
+              "vendor": "Booking.com"
+            },
+            {
+              "price": 180,
+              "tax": 27,
+              "vendor": "Hotels.com"
+            },
+            {
+              "price": 182,
+              "tax": 29,
+              "vendor": "StayForLong.com"
+            },
+            {
+              "price": 153,
+              "tax": 0,
+              "vendor": "Priceline.com"
+            }
+          ],
+          "priceListed": 250,
+          "totalCapacity": 200,
+          "types_of_rooms": [
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 2,
+              "number_of_children": 2,
+              "type": "Standard"
+            },
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 1,
+              "number_of_children": 1,
+              "type": "Deluxe"
+            }
+          ]
+        },
+        {
+          "currency": "USD",
+          "discountedDates": [
+            "2024-07-05",
+            "2024-07-12",
+            "2024-07-19",
+            "2024-07-26"
+          ],
+          "hotelId": "23526565",
+          "hotelName": "Renaissance Birmingham Ross Bridge Golf Resort & Spa",
+          "language": "English",
+          "image": "https://cache.marriott.com/is/image/marriotts7prod/br-bhmhv-queen-queen---guest-room-04868:Classic-Hor?wid=1336&fit=constrain",
+          "priceDetails": [
+            {
+              "price": 250,
+              "tax": 30,
+              "vendor": "Booking.com"
+            },
+            {
+              "price": 245,
+              "tax": 28,
+              "vendor": "Hotels.com"
+            },
+            {
+              "price": 260,
+              "tax": 32,
+              "vendor": "StayForLong.com"
+            },
+            {
+              "price": 220,
+              "tax": 0,
+              "vendor": "Priceline.com"
+            }
+          ],
+          "priceListed": 300,
+          "totalCapacity": 250,
+          "types_of_rooms": [
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 2,
+              "number_of_children": 2,
+              "type": "Standard"
+            },
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 1,
+              "number_of_children": 2,
+              "type": "Suite"
+            }
+          ]
+        }
+      ],
+      "state": "Alabama"
+    },
+    {
+      "hotels": [
+        {
+          "currency": "USD",
+          "discountedDates": [
+            "2024-07-05",
+            "2024-07-12",
+            "2024-07-19",
+            "2024-07-26"
+          ],
+          "hotelId": "654321",
+          "hotelName": "Hotel Captain Cook",
+          "language": "English",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/df/61/d0/junior-suite-living-room.jpg?w=2000&h=-1&s=1",
+          "priceDetails": [
+            {
+              "price": 320,
+              "tax": 35,
+              "vendor": "Booking.com"
+            },
+            {
+              "price": 315,
+              "tax": 33,
+              "vendor": "Hotels.com"
+            },
+            {
+              "price": 340,
+              "tax": 37,
+              "vendor": "StayForLong.com"
+            },
+            {
+              "price": 300,
+              "tax": 0,
+              "vendor": "Priceline.com"
+            }
+          ],
+          "priceListed": 350,
+          "totalCapacity": 150,
+          "types_of_rooms": [
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 2,
+              "number_of_children": 2,
+              "type": "Standard"
+            },
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 1,
+              "number_of_children": 1,
+              "type": "Deluxe"
+            }
+          ]
+        },
+        {
+          "currency": "USD",
+          "discountedDates": [
+            "2024-07-05",
+            "2024-07-12",
+            "2024-07-19",
+            "2024-07-26"
+          ],
+          "hotelId": "789012",
+          "hotelName": "Alyeska Resort",
+          "language": "English",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/29/aa/6d/exterior.jpg?w=1400&h=-1&s=1",
+          "priceDetails": [
+            {
+              "price": 380,
+              "tax": 40,
+              "vendor": "Booking.com"
+            },
+            {
+              "price": 375,
+              "tax": 38,
+              "vendor": "Hotels.com"
+            },
+            {
+              "price": 390,
+              "tax": 42,
+              "vendor": "StayForLong.com"
+            },
+            {
+              "price": 350,
+              "tax": 0,
+              "vendor": "Priceline.com"
+            }
+          ],
+          "priceListed": 400,
+          "totalCapacity": 180,
+          "types_of_rooms": [
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 2,
+              "number_of_children": 2,
+              "type": "Standard"
+            },
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 1,
+              "number_of_children": 2,
+              "type": "Suite"
+            }
+          ]
+        }
+      ],
+      "state": "Alaska"
+    },
+    {
+      "hotels": [
+        {
+          "currency": "USD",
+          "discountedDates": [
+            "2024-07-05",
+            "2024-07-12",
+            "2024-07-19",
+            "2024-07-26"
+          ],
+          "hotelId": "890123",
+          "hotelName": "The Phoenician, a Luxury Collection Resort",
+          "language": "English",
+          "image": "https://s3-media0.fl.yelpcdn.com/bphoto/k7Ft-RWyZ13vnoGOL0RweQ/o.jpg",
+          "priceDetails": [
+            {
+              "price": 420,
+              "tax": 45,
+              "vendor": "Booking.com"
+            },
+            {
+              "price": 415,
+              "tax": 43,
+              "vendor": "Hotels.com"
+            },
+            {
+              "price": 440,
+              "tax": 47,
+              "vendor": "StayForLong.com"
+            },
+            {
+              "price": 400,
+              "tax": 0,
+              "vendor": "Priceline.com"
+            }
+          ],
+          "priceListed": 450,
+          "totalCapacity": 300,
+          "types_of_rooms": [
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 2,
+              "number_of_children": 2,
+              "type": "Standard"
+            },
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 1,
+              "number_of_children": 1,
+              "type": "Deluxe"
+            }
+          ]
+        },
+        {
+          "currency": "USD",
+          "discountedDates": [
+            "2024-07-05",
+            "2024-07-12",
+            "2024-07-19",
+            "2024-07-26"
+          ],
+          "hotelId": "567890",
+          "hotelName": "Fairmont Scottsdale Princess",
+          "language": "English",
+          "image": "https://symphony.cdn.tambourine.com/fairmont-princess-scottsdale/media/untitled-design---2024-05-13t175032_808-66428b3092a07.jpg",
+          "priceDetails": [
+            {
+              "price": 480,
+              "tax": 50,
+              "vendor": "Booking.com"
+            },
+            {
+              "price": 475,
+              "tax": 48,
+              "vendor": "Hotels.com"
+            },
+            {
+              "price": 490,
+              "tax": 52,
+              "vendor": "StayForLong.com"
+            },
+            {
+              "price": 450,
+              "tax": 0,
+              "vendor": "Priceline.com"
+            }
+          ],
+          "priceListed": 500,
+          "totalCapacity": 350,
+          "types_of_rooms": [
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 2,
+              "number_of_children": 2,
+              "type": "Standard"
+            },
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 1,
+              "number_of_children": 2,
+              "type": "Suite"
+            }
+          ]
+        }
+      ],
+      "state": "Arizona"
+    },
+    {
+      "hotels": [
+        {
+          "currency": "USD",
+          "discountedDates": [
+            "2024-07-05",
+            "2024-07-12",
+            "2024-07-19",
+            "2024-07-26"
+          ],
+          "hotelId": "112233",
+          "hotelName": "Capital Hotel",
+          "language": "English",
+          "image": "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/337146812.jpg?k=dae2a6dde11376f15878b2130d69f509c26f9cb42126b69963c72d9a44ad0ab6&o=&hp=1",
+          "priceDetails": [
+            {
+              "price": 180,
+              "tax": 20,
+              "vendor": "Booking.com"
+            },
+            {
+              "price": 175,
+              "tax": 18,
+              "vendor": "Hotels.com"
+            },
+            {
+              "price": 190,
+              "tax": 22,
+              "vendor": "StayForLong.com"
+            },
+            {
+              "price": 150,
+              "tax": 0,
+              "vendor": "Priceline.com"
+            }
+          ],
+          "priceListed": 200,
+          "totalCapacity": 100,
+          "types_of_rooms": [
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 2,
+              "number_of_children": 2,
+              "type": "Standard"
+            },
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 1,
+              "number_of_children": 1,
+              "type": "Deluxe"
+            }
+          ]
+        },
+        {
+          "currency": "USD",
+          "discountedDates": [
+            "2024-07-05",
+            "2024-07-12",
+            "2024-07-19",
+            "2024-07-26"
+          ],
+          "hotelId": "223344",
+          "hotelName": "Museum Hotel Bentonville",
+          "language": "English",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/4c/84/a4/21c-museum-hotel-bentonville.jpg?w=2000&h=-1&s=1",
+          "priceDetails": [
+            {
+              "price": 200,
+              "tax": 25,
+              "vendor": "Booking.com"
+            },
+            {
+              "price": 195,
+              "tax": 23,
+              "vendor": "Hotels.com"
+            },
+            {
+              "price": 210,
+              "tax": 27,
+              "vendor": "StayForLong.com"
+            },
+            {
+              "price": 170,
+              "tax": 0,
+              "vendor": "Priceline.com"
+            }
+          ],
+          "priceListed": 220,
+          "totalCapacity": 120,
+          "types_of_rooms": [
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 2,
+              "number_of_children": 2,
+              "type": "Standard"
+            },
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 1,
+              "number_of_children": 2,
+              "type": "Suite"
+            }
+          ]
+        }
+      ],
+      "state": "Arkansas"
+    },
+    {
+      "hotels": [
+        {
+          "currency": "USD",
+          "discountedDates": [
+            "2024-07-05",
+            "2024-07-12",
+            "2024-07-19",
+            "2024-07-26"
+          ],
+          "hotelId": "334455",
+          "hotelName": "The Beverly Hills Hotel",
+          "language": "English",
+          "image": "https://www.kayak.com/rimg/himg/14/9c/16/expediav2-10760-6367c7-163978.jpg?width=968&height=607&crop=true",
+          "priceDetails": [
+            {
+              "price": 580,
+              "tax": 60,
+              "vendor": "Booking.com"
+            },
+            {
+              "price": 575,
+              "tax": 58,
+              "vendor": "Hotels.com"
+            },
+            {
+              "price": 590,
+              "tax": 62,
+              "vendor": "StayForLong.com"
+            },
+            {
+              "price": 550,
+              "tax": 0,
+              "vendor": "Priceline.com"
+            }
+          ],
+          "priceListed": 600,
+          "totalCapacity": 400,
+          "types_of_rooms": [
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 2,
+              "number_of_children": 2,
+              "type": "Standard"
+            },
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 1,
+              "number_of_children": 1,
+              "type": "Deluxe"
+            }
+          ]
+        },
+        {
+          "currency": "USD",
+          "discountedDates": [
+            "2024-07-05",
+            "2024-07-12",
+            "2024-07-19",
+            "2024-07-26"
+          ],
+          "hotelId": "445566",
+          "hotelName": "Fairmont Grand Del Mar",
+          "language": "English",
+          "image": "https://www.fairmont.com/assets/0/104/2829/2834/4392/4398/dd96afd9-7551-4e6b-8afd-b22a07b96e97.jpg",
+          "priceDetails": [
+            {
+              "price": 630,
+              "tax": 65,
+              "vendor": "Booking.com"
+            },
+            {
+              "price": 625,
+              "tax": 63,
+              "vendor": "Hotels.com"
+            },
+            {
+              "price": 640,
+              "tax": 67,
+              "vendor": "StayForLong.com"
+            },
+            {
+              "price": 600,
+              "tax": 0,
+              "vendor": "Priceline.com"
+            }
+          ],
+          "priceListed": 650,
+          "totalCapacity": 450,
+          "types_of_rooms": [
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 2,
+              "number_of_children": 2,
+              "type": "Standard"
+            },
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 1,
+              "number_of_children": 2,
+              "type": "Suite"
+            }
+          ]
+        }
+      ],
+      "state": "California"
+    },
+    {
+      "hotels": [
+        {
+          "currency": "USD",
+          "discountedDates": [
+            "2024-07-05",
+            "2024-07-12",
+            "2024-07-19",
+            "2024-07-26"
+          ],
+          "hotelId": "778899",
+          "hotelName": "Delamar Greenwich Harbor",
+          "language": "English",
+          "image": "https://cf2.bstatic.com/xdata/images/hotel/max1280x900/176775975.jpg?k=f877dd89314e02976ab3d6acbf9d98f345d9a693ca9608ce603d537680dbb35b&o=&hp=1",
+          "priceDetails": [
+            {
+              "price": 280,
+              "tax": 30,
+              "vendor": "Booking.com"
+            },
+            {
+              "price": 275,
+              "tax": 28,
+              "vendor": "Hotels.com"
+            },
+            {
+              "price": 290,
+              "tax": 32,
+              "vendor": "StayForLong.com"
+            },
+            {
+              "price": 250,
+              "tax": 0,
+              "vendor": "Priceline.com"
+            }
+          ],
+          "priceListed": 300,
+          "totalCapacity": 200,
+          "types_of_rooms": [
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 2,
+              "number_of_children": 2,
+              "type": "Standard"
+            },
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 1,
+              "number_of_children": 1,
+              "type": "Deluxe"
+            }
+          ]
+        },
+        {
+          "currency": "USD",
+          "discountedDates": [
+            "2024-07-05",
+            "2024-07-12",
+            "2024-07-19",
+            "2024-07-26"
+          ],
+          "hotelId": "889900",
+          "hotelName": "Saybrook Point Resort & Marina",
+          "language": "English",
+          "image": "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/411313222.jpg?k=5b2a721ac976d50429b4fe1fc9a779e416a92f8dff3d3b1aa3ef33026a43835b&o=&hp=1",
+          "priceDetails": [
+            {
+              "price": 330,
+              "tax": 35,
+              "vendor": "Booking.com"
+            },
+            {
+              "price": 325,
+              "tax": 33,
+              "vendor": "Hotels.com"
+            },
+            {
+              "price": 340,
+              "tax": 37,
+              "vendor": "StayForLong.com"
+            },
+            {
+              "price": 300,
+              "tax": 0,
+              "vendor": "Priceline.com"
+            }
+          ],
+          "priceListed": 350,
+          "totalCapacity": 250,
+          "types_of_rooms": [
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 2,
+              "number_of_children": 2,
+              "type": "Standard"
+            },
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 1,
+              "number_of_children": 2,
+              "type": "Suite"
+            }
+          ]
+        }
+      ],
+      "state": "Connecticut"
+    },
+    {
+      "hotels": [
+        {
+          "currency": "USD",
+          "discountedDates": [
+            "2024-07-05",
+            "2024-07-12",
+            "2024-07-19",
+            "2024-07-26"
+          ],
+          "hotelId": "990011",
+          "hotelName": "Hotel Du Pont",
+          "language": "English",
+          "image": "https://phgcdn.com/images/uploads/ILGHD/overviewimages/1600x813-Staircase-HOTEL-DU-PONT-Delaware.jpg",
+          "priceDetails": [
+            {
+              "price": 260,
+              "tax": 28,
+              "vendor": "Booking.com"
+            },
+            {
+              "price": 255,
+              "tax": 26,
+              "vendor": "Hotels.com"
+            },
+            {
+              "price": 270,
+              "tax": 30,
+              "vendor": "StayForLong.com"
+            },
+            {
+              "price": 230,
+              "tax": 0,
+              "vendor": "Priceline.com"
+            }
+          ],
+          "priceListed": 280,
+          "totalCapacity": 180,
+          "types_of_rooms": [
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 2,
+              "number_of_children": 2,
+              "type": "Standard"
+            },
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 1,
+              "number_of_children": 1,
+              "type": "Deluxe"
+            }
+          ]
+        },
+        {
+          "currency": "USD",
+          "discountedDates": [
+            "2024-07-05",
+            "2024-07-12",
+            "2024-07-19",
+            "2024-07-26"
+          ],
+          "hotelId": "111222",
+          "hotelName": "Boardwalk Plaza Hotel",
+          "language": "English",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/b5/f5/58/boardwalk-plaza-hotel.jpg?w=1000&h=-1&s=1",
+          "priceDetails": [
+            {
+              "price": 300,
+              "tax": 32,
+              "vendor": "Booking.com"
+            },
+            {
+              "price": 295,
+              "tax": 30,
+              "vendor": "Hotels.com"
+            },
+            {
+              "price": 310,
+              "tax": 34,
+              "vendor": "StayForLong.com"
+            },
+            {
+              "price": 270,
+              "tax": 0,
+              "vendor": "Priceline.com"
+            }
+          ],
+          "priceListed": 320,
+          "totalCapacity": 200,
+          "types_of_rooms": [
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 2,
+              "number_of_children": 2,
+              "type": "Standard"
+            },
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 1,
+              "number_of_children": 2,
+              "type": "Suite"
+            }
+          ]
+        }
+      ],
+      "state": "Delaware"
+    },
+    {
+      "hotels": [
+        {
+          "currency": "USD",
+          "discountedDates": [
+            "2024-07-05",
+            "2024-07-12",
+            "2024-07-19",
+            "2024-07-26"
+          ],
+          "hotelId": "112233",
+          "hotelName": "The Breakers Palm Beach",
+          "language": "English",
+          "image": "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/300213757.jpg?k=4430b1908ceed6208189c3c9c84f2d629f9530fe9576579f0349731167bb6241&o=&hp=1",
+          "priceDetails": [
+            {
+              "price": 680,
+              "tax": 70,
+              "vendor": "Booking.com"
+            },
+            {
+              "price": 675,
+              "tax": 68,
+              "vendor": "Hotels.com"
+            },
+            {
+              "price": 690,
+              "tax": 72,
+              "vendor": "StayForLong.com"
+            },
+            {
+              "price": 650,
+              "tax": 0,
+              "vendor": "Priceline.com"
+            }
+          ],
+          "priceListed": 700,
+          "totalCapacity": 500,
+          "types_of_rooms": [
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 2,
+              "number_of_children": 2,
+              "type": "Standard"
+            },
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 1,
+              "number_of_children": 1,
+              "type": "Deluxe"
+            }
+          ]
+        },
+        {
+          "currency": "USD",
+          "discountedDates": [
+            "2024-07-05",
+            "2024-07-12",
+            "2024-07-19",
+            "2024-07-26"
+          ],
+          "hotelId": "223344",
+          "hotelName": "Four Seasons Resort Orlando",
+          "language": "English",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/fe/95/32/four-seasons-resort-orlando.jpg?w=2000&h=-1&s=1",
+          "priceDetails": [
+            {
+              "price": 730,
+              "tax": 75,
+              "vendor": "Booking.com"
+            },
+            {
+              "price": 725,
+              "tax": 73,
+              "vendor": "Hotels.com"
+            },
+            {
+              "price": 740,
+              "tax": 77,
+              "vendor": "StayForLong.com"
+            },
+            {
+              "price": 700,
+              "tax": 0,
+              "vendor": "Priceline.com"
+            }
+          ],
+          "priceListed": 750,
+          "totalCapacity": 550,
+          "types_of_rooms": [
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 2,
+              "number_of_children": 2,
+              "type": "Standard"
+            },
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 1,
+              "number_of_children": 2,
+              "type": "Suite"
+            }
+          ]
+        }
+      ],
+      "state": "Florida"
+    },
+    {
+      "hotels": [
+        {
+          "currency": "USD",
+          "discountedDates": [
+            "2024-07-05",
+            "2024-07-12",
+            "2024-07-19",
+            "2024-07-26"
+          ],
+          "hotelId": "334455",
+          "hotelName": "The Cloister at Sea Island",
+          "language": "English",
+          "image": "https://cf2.bstatic.com/xdata/images/hotel/max1024x768/240829077.jpg?k=0e5fa6e00a095e20ccf137fe8525f2555007a19d8e2089812ab96d8cc82b4712&o=&hp=1",
+          "priceDetails": [
+            {
+              "price": 580,
+              "tax": 60,
+              "vendor": "Booking.com"
+            },
+            {
+              "price": 575,
+              "tax": 58,
+              "vendor": "Hotels.com"
+            },
+            {
+              "price": 590,
+              "tax": 62,
+              "vendor": "StayForLong.com"
+            },
+            {
+              "price": 550,
+              "tax": 0,
+              "vendor": "Priceline.com"
+            }
+          ],
+          "priceListed": 600,
+          "totalCapacity": 400,
+          "types_of_rooms": [
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 2,
+              "number_of_children": 2,
+              "type": "Standard"
+            },
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 1,
+              "number_of_children": 1,
+              "type": "Deluxe"
+            }
+          ]
+        },
+        {
+          "currency": "USD",
+          "discountedDates": [
+            "2024-07-05",
+            "2024-07-12",
+            "2024-07-19",
+            "2024-07-26"
+          ],
+          "hotelId": "445566",
+          "hotelName": "Ritz-Carlton Reynolds, Lake Oconee",
+          "language": "English",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/02/c4/f4/ritz-carlton-hotel-image.jpg?w=1400&h=-1&s=1",
+          "priceDetails": [
+            {
+              "price": 630,
+              "tax": 65,
+              "vendor": "Booking.com"
+            },
+            {
+              "price": 625,
+              "tax": 63,
+              "vendor": "Hotels.com"
+            },
+            {
+              "price": 640,
+              "tax": 67,
+              "vendor": "StayForLong.com"
+            },
+            {
+              "price": 600,
+              "tax": 0,
+              "vendor": "Priceline.com"
+            }
+          ],
+          "priceListed": 650,
+          "totalCapacity": 450,
+          "types_of_rooms": [
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 2,
+              "number_of_children": 2,
+              "type": "Standard"
+            },
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 1,
+              "number_of_children": 2,
+              "type": "Suite"
+            }
+          ]
+        }
+      ],
+      "state": "Georgia"
+    },
+    {
+      "hotels": [
+        {
+          "currency": "USD",
+          "discountedDates": [
+            "2024-07-05",
+            "2024-07-12",
+            "2024-07-19",
+            "2024-07-26"
+          ],
+          "hotelId": "556677",
+          "hotelName": "Four Seasons Resort Hualalai",
+          "language": "English",
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/44/0f/e9/evening-traditions.jpg?w=1400&h=-1&s=1",
+          "priceDetails": [
+            {
+              "price": 780,
+              "tax": 80,
+              "vendor": "Booking.com"
+            },
+            {
+              "price": 775,
+              "tax": 78,
+              "vendor": "Hotels.com"
+            },
+            {
+              "price": 790,
+              "tax": 82,
+              "vendor": "StayForLong.com"
+            },
+            {
+              "price": 750,
+              "tax": 0,
+              "vendor": "Priceline.com"
+            }
+          ],
+          "priceListed": 800,
+          "totalCapacity": 500,
+          "types_of_rooms": [
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 2,
+              "number_of_children": 2,
+              "type": "Standard"
+            },
+            {
+              "number_of_adults": 2,
+              "number_of_beds": 1,
+              "number_of_children": 1,
+              "type": "Deluxe"
+            }
+          ]
+        }
+      ],
+      "state": "Hawaii"
+    }
+  ]

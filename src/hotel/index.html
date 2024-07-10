@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel360 | Home Page</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- <header class="divider" id="main-header">Welcome to Hotel360</header> -->
+<header class="divider" id="main-header">
+    <div class="container">
+        <span class="logo">Welcome to <span>Hotel360</span></span>
+        <nav>
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="../hotel/selection.html">Hotels</a></li>
+                <li><a href="../details/index.html">Partners</a></li>
+                <li><a href="../bookings/index.html">Bookings</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div class="mainContainer">
+        <section>
+            <h1>Book Your Hotel Today</h1>
+            <h3>Choose from any of our partnering hotels to book</h3>
+            <!-- <p>Great deals start here with exclusive offers and discounts. Whether you're seeking luxury, budget-friendly, or family-friendly options, we have the perfect hotel for you. Our partnering hotels offer everything from beachfront resorts to city center boutiques.</p> -->
+            <p>Click the button below to start booking today.</p>
+            <button onclick="document.location='../bookings/index.html'">Book Now</button>
+        </section>
+        <picture>
+            <!-- <img src="https://placehold.jp/400x400.png" alt="hotel"> -->
+            <!-- <source srcset="path_to/hero-image.webp" type="image/webp" media="(min-width: 501px)"> -->
+            <img src="../images/hero-image.webp" alt="Hotel balcony with a gust with a drink standing while viewing the hotel ">
+        </picture>
+    </div>
+
+
+    <div class="slider-container">
+        <h3>Top 12 Deals</h3>
+        <div class="slider wrap" id="hotels-data"></div>
+    </div>
+
+    <div class="mainContainer">
+        <picture>
+            <!-- <source srcset="path_to/mission-picture.webp" type="image/webp" media="(min-width: 501px)"> -->
+            <img src="../images/mission-picture.webp" alt="Tennis Action">
+        </picture>
+        <section>
+            <h3>Mission</h3>
+            <p>To provide the best hotel experience for our customers at the most competitive prices.</p>
+        </section>
+    </div>
+</main>
+<footer id="main-footer">© 2024 Hotel360. All rights reserved.</footer>
+<script src="../js/main.js" type="module"></script>
+</body>
+</html>

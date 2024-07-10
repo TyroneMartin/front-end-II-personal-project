@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel360 | Home Page</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="divider" id="main-header">
+    <div class="container">
+        <span class="logo">Welcome to <span>Hotel360</span></span>
+        <nav>
+            <ul>
+                <li><a href="../hotel/index.html">Home</a></li>
+                <li><a href="../hotel/selection.html">Hotels</a></li>
+                <li><a  class="active" href="../details/index.html">Partners</a></li>
+                <li><a href="../bookings/index.html">Bookings</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div class="mainContainer">
+        <picture>
+            <img src="../images/hero-image.webp" alt="Hotel balcony with a guest with a drink standing while viewing the hotel">
+        </picture>
+
+        <section>
+            <h1>Partnerships</h1>
+            <h3>We have partners with top travel agencies to help you find the perfect hotel for you</h3>
+            <p>Experience the best deals at the most competitive prices.</p>
+            <p>Click the button below to start booking today.</p>
+            <button onclick="document.location='../bookings/index.html'">Book Now</button>
+        </section>
+    </div>
+
+    <section class="slider-container">
+        <h3>Our Partners</h3>
+        <div class="slider" id="partners"></div>
+    </section>
+
+    <div class="detailsTextContainer">
+        <div class="detailsText">
+            <p>We understand how important it is to have a good hotel experience and how frustrating it can be to find the best deals. We've found the deals so you don't have to!</p>
+        </div>
+        <h2>Your Journey Starts Here</h2>
+    </div>
+
+    <div class="mainContainer">
+        <section>
+            <h3>Register to get exclusive offers</h3>
+            <p>Whether you're seeking luxury, budget-friendly, or family-friendly options, we have the perfect hotel for you. Our partnering hotels offer everything from beachfront resorts to city center boutiques.</p>
+            <button onclick="document.location='../bookings/index.html'">Book Now</button>
+        </section>
+        <picture>
+            <img src="../images/mission-picture.webp" alt="Tennis Action">
+        </picture>
+    </div>
+</main>
+<footer id="main-footer">© 2024 Hotel360. All rights reserved.</footer>
+<script src="../js/details.js" type="module"></script>
+</body>
+</html>

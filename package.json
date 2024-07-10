@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "description": "This project is a personal project for Front End II. It is an API built using Firebase and Node.js. The API compares third-party rates and provides customers with the best room rates within the USA for a specific area.",
+  "type": "module",
   "scripts": {
     "start": "nodemon app.js"
   },
@@ -10,6 +11,7 @@
     "nodemon": "^3.1.4"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "firebase": "^10.12.3",
