@@ -4,7 +4,7 @@ import { startSlider } from './slider.mjs';
 document.addEventListener('DOMContentLoaded', function() {
     const hotelsDiv = document.getElementById('hotels-data');
 
-    fetch('http://localhost:3000/api/hotels')
+    fetch('https://front-end-ii-personal-project.onrender.com/api/hotels')
         .then(response => {
             if (!response.ok) {
                 throw new Error(`Network response was not ok: ${response.statusText}`);
