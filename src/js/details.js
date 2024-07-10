@@ -4,11 +4,7 @@ import { startSlider } from './slider.mjs';
 document.addEventListener('DOMContentLoaded', function() {
     const partnersDiv = document.getElementById('partners');
 
-<<<<<<< HEAD
     fetch('https://front-end-ii-personal-project.onrender.com/api/hotels')
-=======
-    fetch('https://front-end-ii-personal-project.onrender.com')
->>>>>>> 8394ddedfcdeaa4500d4081aac25a6bb17a98dde
         .then(response => {
             if (!response.ok) {
                 throw new Error(`Network response was not ok: ${response.statusText}`);
